@@ -1,0 +1,16 @@
+Module not found: Error: Can't resolve 'web-vitals' in 'C:\Users\e430372\Downloads\react-clock-app1\app\src'
+
+It seems like the web-vitals package is missing from your project. To fix this error, you need to install the web-vitals package. Here’s how you can do it:
+
+Open your terminal and navigate to your project's root directory (where your package.json file is located).
+
+Run the following command to install the web-vitals package as a development dependency:
+
+sh
+npm install --save-dev web-vitals
+Restart your development server by running:
+
+sh
+npm start
+
+This should resolve the error. If the issue persists, try deleting your node_modules folder and package-lock.json file, then run npm install again to reinstall all dependencies.
